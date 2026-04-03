@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Command Center Messaging</title>
+    <meta
+      name="description"
+      content="Official messaging website for Family Command Center notifications and reminders."
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --panel: #f4f6fb;
+        --text: #101828;
+        --muted: #475467;
+        --accent: #2563eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b1220;
+          --panel: #121b2f;
+          --text: #e2e8f0;
+          --muted: #94a3b8;
+          --accent: #60a5fa;
+        }
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.55;
+      }
+      .wrap {
+        max-width: 840px;
+        margin: 0 auto;
+        padding: 2rem 1.2rem 4rem;
+      }
+      h1,
+      h2 {
+        line-height: 1.2;
+      }
+      .lead {
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+      .card {
+        margin-top: 1rem;
+        background: var(--panel);
+        border-radius: 12px;
+        padding: 1rem 1.1rem;
+      }
+      ul {
+        margin-top: 0.3rem;
+      }
+      a {
+        color: var(--accent);
+      }
+      .foot {
+        margin-top: 2.5rem;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      code {
+        background: rgba(127, 127, 127, 0.15);
+        border-radius: 6px;
+        padding: 0.15rem 0.35rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Family Command Center Messaging</h1>
+      <p class="lead">
+        This website supports messaging verification for Family Command Center. We send
+        requested reminders, schedule updates, and household coordination messages.
+      </p>
+
+      <section class="card">
+        <h2>Business and Service Description</h2>
+        <p>
+          Family Command Center is a household coordination service. The service helps
+          participants manage reminders, schedules, and planning through phone-native
+          messaging.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Message Types</h2>
+        <ul>
+          <li>Reminders for events, tasks, and follow-ups.</li>
+          <li>Schedule coordination and confirmation prompts.</li>
+          <li>Operational updates requested by participants.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Consent and Controls</h2>
+        <ul>
+          <li>Messages are sent only to participants who provided consent.</li>
+          <li>
+            Reply <code>STOP</code> to opt out of future messages at any time.
+          </li>
+          <li>
+            Reply <code>HELP</code> for support instructions and contact details.
+          </li>
+          <li>Message and data rates may apply from your carrier.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Support Contact</h2>
+        <p>
+          Email: <a href="mailto:support@example.com">support@example.com</a><br />
+          This contact should be monitored by the business owner.
+        </p>
+      </section>
+
+      <p class="foot">
+        Review legal pages:
+        <a href="./privacy.html">Privacy Policy</a> and
+        <a href="./terms.html">Terms of Service</a>.
+      </p>
+    </main>
+  </body>
+</html>
